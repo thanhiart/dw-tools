@@ -1,0 +1,22 @@
+{
+  "name": "dw-tools",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "chcp 65001 && node dist/main.js",
+    "prestart": "npm run build",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "jimp": "^0.16.1",
+    "node-fetch": "2.6.6",
+    "node-notifier": "^10.0.0",
+    "puppeteer": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/jimp": "^0.2.28",
+    "@types/node": "^16.11.12",
+    "typescript": "^4.5.3"
+  }
+}
